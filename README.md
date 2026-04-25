@@ -18,13 +18,13 @@ This project analyzes customer churn behavior using interactive Power BI dashboa
 3] Support data-driven retention strategies.
 
 
-**<h3 align="center">🛠️ Tools Used:</h3>**
+**<h2 align="center">🛠️ Tools Used:</h2>**
 
 - Power BI – Data modeling, DAX, and dashboard development.
 - Microsoft Excel – Data storage and preprocessing.
 
 
-**<h4 align="center">📂 Dataset Description:</h4>**
+**<h2 align="center">📂 Dataset Description:</h2>**
 
 The dataset follows a star schema model consisting of one fact table and multiple dimension tables:
 
@@ -40,16 +40,16 @@ The dataset follows a star schema model consisting of one fact table and multipl
 | Bank_Churn     | CustomerID, Age, Balance, CreditScore, Bank DOJ, Exited, EstimatedSalary, GenderID, CreditID, ExitID, GeographyID, ActiveID |
 
 
-**<h5 align="center">🗂️ Data Model (Schema):</h5>**
+**<h2 align="center">🗂️ Data Model (Schema):</h2>**
 
 - Fact Table: Bank_Churn
 - Dimension Tables: CustomerInfo, Geography, Gender, CreditCard, ActiveCustomer, ExitCustomer, Date
 - Designed using a star schema for efficient analysis.
 
 
-**<h6 align="center">🔗 Relationships Between Tables:</h6>**
+**<h2 align="center">🔗 Relationships Between Tables:</h2>**
 
-<h7 align="center">Schema Diagram</h7>
+<h3 align="center">Schema Diagram</h3>
 
 <p align="center">
   <img src="images/Schema Diagram.png" width="800"/>
@@ -57,7 +57,7 @@ The dataset follows a star schema model consisting of one fact table and multipl
 
 
 
-**<h8 align="center">❓ Key Business Questions:</h8>**
+**<h2 align="center">❓ Key Business Questions:</h2>**
 
 1] What is the overall churn and retention rate?
 
@@ -75,14 +75,14 @@ The dataset follows a star schema model consisting of one fact table and multipl
 
 
 
-**<h9 align="center">📊 Power BI Dashboards:</h9>**
+**<h2 align="center">📊 Power BI Dashboards:</h2>**
 
 **1. Customer Churn Overview Dashboard:**
 - KPI cards (Total, Active, Inactive, Exit)
 - Monthly churn trends
 - Credit score & credit card analysis
 
-<h10 align="center">Customer Churn Overview Dashboard</h10>
+<h3 align="center">Customer Churn Overview Dashboard</h3>
 
 <p align="center">
   <img src="images/Dashboard_1.png" width="800"/>
@@ -94,14 +94,14 @@ The dataset follows a star schema model consisting of one fact table and multipl
 - Age-based churn behavior
 - Yearly and monthly churn in %
 
-<h11 align="center">Customer Retention & Trend Dashboard</h11>
+<h3 align="center">Customer Retention & Trend Dashboard</h3>
 
 <p align="center">
   <img src="images/Dashboard_2.png" width="800"/>
 </p>
 
 
-<h12 align="center">🔍 Key Insights:</h12>
+<h2 align="center">🔍 Key Insights:</h2>
 
 | Category          | Insight                                                                      |
 | ----------------- | ---------------------------------------------------------------------------- |
@@ -115,20 +115,20 @@ The dataset follows a star schema model consisting of one fact table and multipl
 | Credit Score      | Fair & Poor categories → Highest churn                                       |
 | Trend             | Churn stable between 16%–26% across years                                    |
 
-<h13 align="center">Insights of Dashboard - 1</h13>
+<h3 align="center">Insights of Dashboard - 1</h3>
 
 <p align="center">
   <img src="images/Insights_1.png" width="800"/>
 </p>
 
-<h14 align="center">1Insights of Dashboard - 2</h14>
+<h3 align="center">1Insights of Dashboard - 2</h3>
 
 <p align="center">
   <img src="images/Insights_2.png" width="800"/>
 </p>
 
 
-<h15 align="center">✅ Conclusion:</h15>
+<h2 align="center">✅ Conclusion:</h2>
 
 This dashboard helps businesses to:
 - Identify high-risk customer segments.
