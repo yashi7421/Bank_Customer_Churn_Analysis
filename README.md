@@ -74,7 +74,6 @@ The dataset follows a star schema model consisting of one fact table and multipl
 7] Which age group shows the highest churn behavior?
 
 
-
 **<h2 align="center">📊 Power BI Dashboards:</h2>**
 
 **1. Customer Churn Overview Dashboard:**
@@ -102,10 +101,6 @@ The dataset follows a star schema model consisting of one fact table and multipl
 
 
 <h2 align="center">🔍 Key Insights:</h2>
-
-## 🔍 Key Insights
-
-## 🔍 Key Insights
 
 | Category           | Insight                                                                      |
 |--------------------|------------------------------------------------------------------------------|
