@@ -9,14 +9,14 @@ This project analyzes customer churn behavior using interactive Power BI dashboa
 
 **The dashboards are designed to:**
 
-1] Identify high-risk customer segments
-2] Track churn trends over time
-3] Support data-driven retention strategies
+- 1] Identify high-risk customer segments.
+- 2] Track churn trends over time.
+- 3] Support data-driven retention strategies.
 
 **🛠️ Tools Used:**
 
-- Power BI – Data modeling, DAX, and dashboard development
-- Microsoft Excel – Data storage and preprocessing
+- Power BI – Data modeling, DAX, and dashboard development.
+- Microsoft Excel – Data storage and preprocessing.
 
 **📂 Dataset Description:**
 
@@ -41,10 +41,10 @@ The dataset follows a star schema model consisting of one fact table and multipl
 
 **🔗 = Relationships Between Tables:**
 
-<h3 align="center">Customer Churn Overview Dashboard</h3>
+<h3 align="center">Schema Diagram</h3>
 
 <p align="center">
-  <img src="images/dashboard_1.png" width="800"/>
+  <img src="images/Schema Diagram.png" width="800"/>
 </p>
 
 **❓ Key Business Questions:**
@@ -67,7 +67,7 @@ The dataset follows a star schema model consisting of one fact table and multipl
 <h3 align="center">Customer Churn Overview Dashboard</h3>
 
 <p align="center">
-  <img src="images/dashboard_1.png" width="800"/>
+  <img src="images/Dashboard_1.png" width="800"/>
 </p>
 
 **2. Customer Retention & Trend Dashboard:**
@@ -78,7 +78,7 @@ The dataset follows a star schema model consisting of one fact table and multipl
 <h3 align="center">Customer Retention & Trend Dashboard</h3>
 
 <p align="center">
-  <img src="images/dashboard_2.png" width="800"/>
+  <img src="images/Dashboard_2.png" width="800"/>
 </p>
 
 **🔍 Key Insights:**
@@ -94,6 +94,18 @@ The dataset follows a star schema model consisting of one fact table and multipl
 | Gender            | Male customers contribute ~56% of churn                                      |
 | Credit Score      | Fair & Poor categories → Highest churn                                       |
 | Trend             | Churn stable between 16%–26% across years                                    |
+
+<h3 align="center">Insights of Dashboard - 1</h3>
+
+<p align="center">
+  <img src="images/Insights_1.png" width="800"/>
+</p>
+
+<h3 align="center">1Insights of Dashboard - 2</h3>
+
+<p align="center">
+  <img src="images/Insights_2.png" width="800"/>
+</p>
 
 **✅ Conclusion:**
 
