@@ -9,9 +9,11 @@ This project analyzes customer churn behavior using interactive Power BI dashboa
 
 **The dashboards are designed to:**
 
-- 1] Identify high-risk customer segments.
-- 2] Track churn trends over time.
-- 3] Support data-driven retention strategies.
+1] Identify high-risk customer segments.
+
+2] Track churn trends over time.
+
+3] Support data-driven retention strategies.
 
 **🛠️ Tools Used:**
 
@@ -50,11 +52,17 @@ The dataset follows a star schema model consisting of one fact table and multipl
 **❓ Key Business Questions:**
 
 1] What is the overall churn and retention rate?
+
 2] How does churn vary across months and years?
+
 3] Which gender contributes more to churn?
+
 4] Do credit card holders churn more than non-holders?
+
 5] Which credit score categories are high risk?
+
 6] How does churn differ across France, Germany, and Spain?
+
 7] Which age group shows the highest churn behavior?
 
 **📊 Power BI Dashboards:**
