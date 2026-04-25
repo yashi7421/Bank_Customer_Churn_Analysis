@@ -1,11 +1,13 @@
-**📉 Bank_Customer_Churn_Analysis**
+**<h1 align="center">📉 Bank_Customer_Churn_Analysis</h1>**
 
 This project analyzes customer churn behavior using interactive Power BI dashboards built on a structured Excel dataset. The objective is to identify churn patterns, key risk factors, and actionable insights to improve customer retention.
 
-**📊 Project Overview:**
+
+**<h2 align="center">📊 Project Overview:</h2>**
 
 - Customer churn is a critical KPI that directly affects business growth and revenue.
 - This project explores churn trends across multiple dimensions such as credit card usage, geography, age, gender, and credit score.
+
 
 **The dashboards are designed to:**
 
@@ -15,12 +17,14 @@ This project analyzes customer churn behavior using interactive Power BI dashboa
 
 3] Support data-driven retention strategies.
 
-**🛠️ Tools Used:**
+
+**<h3 align="center">🛠️ Tools Used:</h3>**
 
 - Power BI – Data modeling, DAX, and dashboard development.
 - Microsoft Excel – Data storage and preprocessing.
 
-**📂 Dataset Description:**
+
+**<h4 align="center">📂 Dataset Description:</h4>**
 
 The dataset follows a star schema model consisting of one fact table and multiple dimension tables:
 
@@ -35,21 +39,25 @@ The dataset follows a star schema model consisting of one fact table and multipl
 | Date Master    | Date, Month, Month Order, Year                                                                                              |
 | Bank_Churn     | CustomerID, Age, Balance, CreditScore, Bank DOJ, Exited, EstimatedSalary, GenderID, CreditID, ExitID, GeographyID, ActiveID |
 
-**🗂️ Data Model (Schema):**
+
+**<h5 align="center">🗂️ Data Model (Schema):</h5>**
 
 - Fact Table: Bank_Churn
 - Dimension Tables: CustomerInfo, Geography, Gender, CreditCard, ActiveCustomer, ExitCustomer, Date
 - Designed using a star schema for efficient analysis.
 
-**🔗 = Relationships Between Tables:**
 
-<h3 align="center">Schema Diagram</h3>
+**<h6 align="center">🔗 Relationships Between Tables:</h6>**
+
+<h7 align="center">Schema Diagram</h7>
 
 <p align="center">
   <img src="images/Schema Diagram.png" width="800"/>
 </p>
 
-**❓ Key Business Questions:**
+
+
+**<h8 align="center">❓ Key Business Questions:</h8>**
 
 1] What is the overall churn and retention rate?
 
@@ -65,31 +73,35 @@ The dataset follows a star schema model consisting of one fact table and multipl
 
 7] Which age group shows the highest churn behavior?
 
-**📊 Power BI Dashboards:**
+
+
+**<h9 align="center">📊 Power BI Dashboards:</h9>**
 
 **1. Customer Churn Overview Dashboard:**
 - KPI cards (Total, Active, Inactive, Exit)
 - Monthly churn trends
 - Credit score & credit card analysis
 
-<h3 align="center">Customer Churn Overview Dashboard</h3>
+<h10 align="center">Customer Churn Overview Dashboard</h10>
 
 <p align="center">
   <img src="images/Dashboard_1.png" width="800"/>
 </p>
+
 
 **2. Customer Retention & Trend Dashboard:**
 - Geography-wise churn
 - Age-based churn behavior
 - Yearly and monthly churn in %
 
-<h3 align="center">Customer Retention & Trend Dashboard</h3>
+<h11 align="center">Customer Retention & Trend Dashboard</h11>
 
 <p align="center">
   <img src="images/Dashboard_2.png" width="800"/>
 </p>
 
-**🔍 Key Insights:**
+
+<h12 align="center">🔍 Key Insights:</h12>
 
 | Category          | Insight                                                                      |
 | ----------------- | ---------------------------------------------------------------------------- |
@@ -103,19 +115,20 @@ The dataset follows a star schema model consisting of one fact table and multipl
 | Credit Score      | Fair & Poor categories → Highest churn                                       |
 | Trend             | Churn stable between 16%–26% across years                                    |
 
-<h3 align="center">Insights of Dashboard - 1</h3>
+<h13 align="center">Insights of Dashboard - 1</h13>
 
 <p align="center">
   <img src="images/Insights_1.png" width="800"/>
 </p>
 
-<h3 align="center">1Insights of Dashboard - 2</h3>
+<h14 align="center">1Insights of Dashboard - 2</h14>
 
 <p align="center">
   <img src="images/Insights_2.png" width="800"/>
 </p>
 
-**✅ Conclusion:**
+
+<h15 align="center">✅ Conclusion:</h15>
 
 This dashboard helps businesses to:
 - Identify high-risk customer segments.
