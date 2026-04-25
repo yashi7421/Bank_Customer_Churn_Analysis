@@ -103,6 +103,7 @@ The dataset follows a star schema model consisting of one fact table and multipl
 
 <h2 align="center">🔍 Key Insights:</h2>
 
+<div align="center">
 | Category          | Insight                                                                      |
 | ----------------- | ---------------------------------------------------------------------------- |
 | Churn Rate        | ~20% (2,037 customers exited)                                                |
@@ -115,13 +116,15 @@ The dataset follows a star schema model consisting of one fact table and multipl
 | Credit Score      | Fair & Poor categories → Highest churn                                       |
 | Trend             | Churn stable between 16%–26% across years                                    |
 
+</div>
+
 <h3 align="center">Insights of Dashboard - 1</h3>
 
 <p align="center">
   <img src="images/Insights_1.png" width="800"/>
 </p>
 
-<h3 align="center">1Insights of Dashboard - 2</h3>
+<h3 align="center">Insights of Dashboard - 2</h3>
 
 <p align="center">
   <img src="images/Insights_2.png" width="800"/>
