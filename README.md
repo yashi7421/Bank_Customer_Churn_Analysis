@@ -103,22 +103,21 @@ The dataset follows a star schema model consisting of one fact table and multipl
 
 <h2 align="center">🔍 Key Insights:</h2>
 
-<p align="center">
-<table>
-<tr><th>Category</th><th>Insight</th></tr>
+## 🔍 Key Insights
 
-<tr><td>Churn Rate</td><td>~20% (2,037 customers exited)</td></tr>
-<tr><td>Retention</td><td>7,963 customers retained</td></tr>
-<tr><td>Customer Split</td><td>Active: 51.5% • Inactive: 48.5%</td></tr>
-<tr><td>Credit Card Usage</td><td>~70% of churn from credit card holders</td></tr>
-<tr><td>Geography</td><td>France: Highest customers • Germany: Highest churn rate • Spain: Most stable</td></tr>
-<tr><td>Age Group</td><td>35–50 years → Highest churn</td></tr>
-<tr><td>Gender</td><td>Male customers contribute ~56% of churn</td></tr>
-<tr><td>Credit Score</td><td>Fair & Poor categories → Highest churn</td></tr>
-<tr><td>Trend</td><td>Churn stable between 16%–26% across years</td></tr>
+## 🔍 Key Insights
 
-</table>
-</p>
+| Category           | Insight                                                                      |
+|--------------------|------------------------------------------------------------------------------|
+| Churn Rate         | ~20% (2,037 customers exited)                                                |
+| Retention          | 7,963 customers retained                                                     |
+| Customer Split     | Active: 51.5% • Inactive: 48.5%                                              |
+| Credit Card Usage  | ~70% of churn from credit card holders                                       |
+| Geography          | France: Highest customers • Germany: Highest churn rate • Spain: Most stable |
+| Age Group          | 35–50 years → Highest churn                                                  |
+| Gender             | Male customers contribute ~56% of churn                                      |
+| Credit Score       | Fair & Poor categories → Highest churn                                       |
+| Trend              | Churn stable between 16%–26% across years                                    |
 
 <h3 align="center">Insights of Dashboard - 1</h3>
 
